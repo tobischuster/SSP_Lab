@@ -54,7 +54,7 @@ end
 
 %% d)
 
-[R]=levinson_tobi(correlation_seq)
+[R]=levinson(correlation_seq);
 
 figure('Name','d) Periodogram and Autoregressive Spectrum','NumberTitle','off')
 hold on
